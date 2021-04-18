@@ -1,0 +1,57 @@
+.section1{
+    
+position: absolute;
+width: 1280px;
+height: 700px;
+left: 0px;
+top: 0px;
+}
+.hero{
+    position: absolute;
+width: 1180px;
+height: 670px;
+left: 100px;
+top: 30px;
+
+}
+
+ .hero::.img{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 189px;
+    top: 139px;
+   
+}
+
+.rectangle3{
+    position: absolute;
+    width: 1180px;
+    height: 250px;
+    left: 100px;
+    top: 450px;
+    
+    background: #BBE5ED; 
+
+}
+
+.rectangle3::.join_us_and{
+    position: absolute;
+    width: 361px;
+    height: 60px;
+    left: 640px;
+    top: 479px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 125%;
+    /* or 30px */
+    
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    
+    color: #061A40;
+ 
+}

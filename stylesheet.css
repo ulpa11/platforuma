@@ -1,0 +1,1069 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+/* complete page css*/
+.landingpage{
+position: absolute;
+width: 1280px;
+height: 4608px;
+
+background: #FFFFFF;
+}
+/* !!!!!!!!!!!!section0 css starts here!!!!!!!!*/
+/* this is css for section0 that consist side bar and right side element*/
+.section0{
+    position:relative;
+    width: 1280px;
+    height: 700px;
+    
+}
+
+/* this is css for box in sidebar */
+.sidebar{
+    position:absolute;
+    width: 100px;
+    height: 700px;
+    
+}
+/* this is css for colored box in sidebar */
+.rectangle1{
+    position:absolute;
+    width: 100px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    background: #061A40;
+    z-index:1;
+}    
+.logo{
+    position: absolute;
+    width: 60px;
+    height: 66.67px;
+    left: 20px;
+    top: 40px;
+    
+    z-index: 2;
+}
+.hamburger{
+    position:absolute;
+width: 40px;
+height: 17px;
+left: 30px;
+top: 140px;
+z-index: 2;
+}
+
+.platforuma_logo{
+    position:absolute;
+    width: 40px;
+    height: 17px;
+    left: 30px;
+    top: 260px;
+    z-index: 2;
+}
+/*here the side bar elements end */
+
+
+
+
+
+/*this css is for right side wlwment contact us and reach us */
+    .reach_us_ellipse1{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    left: 1205px;
+    top: 30px;
+
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    z-index: 3;
+
+}
+
+.reach_us{
+position: absolute;
+width: 70px;
+height: 21px;
+left: 1210px;
+top: 120px;
+z-index: 3;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+
+transform: rotate(90deg);
+
+}
+
+.how_can_i_help_you{
+position:absolute;
+width: 156px;
+height: 21px;
+left: 1165px;
+top: 530px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+
+transform: rotate(90deg);
+z-index: 3;
+
+}
+
+.reach_us_ellipse2{
+    position:absolute;
+width: 50px;
+height: 50px;
+left: 1205px;
+top: 610px;
+
+background:#BBE5ED;
+
+z-index: 3;
+}
+/* !!!!!!!!!!!!section0 css ends here!!!!!!!!*/
+/* section 0 css end here it has side bar and right side element */
+
+
+/* !!!!!!!!!!!!section1 css starts here!!!!!!!!*/
+/* section1 */
+.section1{
+    position: absolute;
+    width: 1280px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+}
+.hero{
+    position: absolute;
+width: 1180px;
+height: 670px;
+left: 100px;
+top: 30px;
+}
+
+/*here farme1 of section 1 start it consist of nav bar that has learn innovate and inspire */
+
+.frame1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    width: 335px;
+    height: 47px;
+    left: 28px;
+    top: 0px;
+
+}
+
+.nav_learn{
+position: static;
+width: 54px;
+height: 27px;
+left: 60px;
+top: 0px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+.nav_inovate{
+    position: static;
+width: 74px;
+height: 27px;
+left: 124px;
+top: 0px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+.nav_inspire{
+    position: static;
+width: 67px;
+height: 27px;
+left: 258px;
+top: 0px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 40px;
+}
+/*here farme1 of section 1 comes to an end  */
+
+/*here text  of section 1 start */
+
+.section1_img{
+
+position: absolute;
+width: 400px;
+height: 500px;
+left: 75px;
+top: 100px;
+z-index:3;
+
+
+}
+.section1_we_have{
+    position: absolute;
+    width: 541px;
+    height: 152px;
+    left: 550px;
+    top: 16px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 105%;
+    /* or 76px */
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #061A40;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+}
+
+
+
+
+
+.hr_line{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 550px;
+    top: 240px;
+    
+    color: #061A40 ;
+}
+
+.section1_paragraph{
+    position: absolute;
+width: 540px;
+height: 69px;
+left: 550px;
+top: 245px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 125%;
+/* or 22px */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+.rectangle3{
+    position: absolute;
+width: 1180px;
+height: 250px;
+left:0px;
+top: 420px;
+
+background: #BBE5ED;
+z-index: 2;
+}
+.section1_paragraph2{
+    position: absolute;
+width: 361px;
+height: 60px;
+left: 545px;
+top: 10px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 125%;
+/* or 30px */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+/* !!!!!!!!!!!!section1 css ends here!!!!!!!!*/
+
+
+/* !!!!!!!!!!!!section2 css starts here!!!!!!!!*/
+/* section2 css consist of learn page*/
+
+/*css of learn image*/
+.section2_rectangle{
+    position: absolute;
+    width: 1180px;
+    height: 670px;
+    left: 100px;
+    top: 30px;
+}
+.section2_img{
+    position:absolute;
+    width: 547px;
+    height: 114px;
+    left:75px;
+    top: 720px;
+    filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
+}
+.section2_paragraph{
+    position:absolute;
+width: 720px;
+height: 40px;
+left: 80px;
+top: 840px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 110%;
+/* or 20px */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+/*css of school of programming*/
+.school_of_pro_box{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 75px;
+    top: 930px;
+
+    background: #BBE5ED;
+    box-shadow: 2px 8px 10px rgba(6, 26, 64, 0.5);
+    border-radius: 30px;
+    z-index: inherit;
+}
+
+.school_of_prog_image{
+  
+}
+.school_of_pro_text{
+    position: absolute;
+width: 300px;
+height: 54px;
+left:0px;
+top:140px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 90%;
+/* or 16px */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+/*this css is for red programing word */
+.school_of_pro_proWord{
+
+font-weight: 600;
+font-size: 30px;
+line-height: 27px;
+
+color: #FB3640;
+}
+/* yeah line sahi karna h galat aa rahi h*/
+.hr_line_in_school_of_pro{
+position: absolute;
+width: 100px;
+height: 0px;
+left: 100px;
+top: 210px;
+
+
+border: 1px solid #061A40;
+}
+.school_of_prog_paragraph{
+position: absolute;
+width: 250px;
+height: 85px;
+left: 25px;
+top: 215px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 105%;
+/* or 17px */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+
+.explore_button_box{
+    position: absolute;
+width: 270px;
+height: 50px;
+left:15px;
+top:335px;
+
+background: linear-gradient(92.91deg, rgba(0, 101, 255, 0.8) -14.24%, rgba(5, 40, 108, 0.8) 100%);
+box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+z-index:1;
+}
+
+.explore_text{
+    position: absolute;
+width: 87px;
+height: 21.67px;
+left: 90px;
+top:-13px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #ffffff;
+z-index: 2;
+}
+
+/*css of school of programming end here*/
+/*css of school of robotics start here*/
+.school_of_robo_box{
+position: absolute;
+width: 300px;
+height: 400px;
+left:425px;
+top: 930px;
+background: #BBE5ED;
+box-shadow: 2px 8px 10px rgba(6, 26, 64, 0.5);
+border-radius: 30px;
+}
+/*css of school of robotics end and dont search for css of school of robotics more because for elements 
+i have used same css that of school of prog and same will be used in school or advance skills*/
+
+/*css of school of advance skills start here*/
+.school_of_advance_skills_box{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left:775px;
+    top: 930px;
+    
+    background: #BBE5ED;
+    box-shadow: 2px 8px 10px rgba(6, 26, 64, 0.5);
+    border-radius: 30px;  
+}
+
+/*css of school of advance skills ends here here*/
+/* !!!!!!!!!!!!section2 css ends here!!!!!!!!*/
+
+/* !!!!!!!!!!!!section3 css start here!!!!!!!!*/
+.section3_rectangle{
+position: absolute;
+width:100%;
+height: 700px;
+left: 0px;
+top: 1400px;
+
+background: #BBE5ED;
+}
+
+/*section 3 inovate hadding css*/
+.section3_inovate_image{
+    position:relative;
+    width: 723px;
+    height: 114px;
+    left: 182px;
+    top: 25px;
+    
+    filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
+}
+.section3_paragraph{
+    position: absolute;
+width: 810px;
+height: 40px;
+left: 190px;
+top: 150px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 110%;
+/* or 20px */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+/*section 3 bootcamp box*/
+.bootcamp_box2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 200px;
+    top: 230px;
+    
+    background: linear-gradient(180deg, #0065FF 0%, #061A40 100%);
+    border-radius: 30px;
+    
+    
+}
+.bootcamp_box{
+    position: absolute;
+width: 300px;
+height: 400px;
+left: -9px;
+top: -9px;
+
+background: #BBE5ED;
+border: 1px solid #0065FF;
+border-radius: 30px;
+overflow:hidden;
+
+}
+.bootcampbox_ellipse{
+   
+
+position: absolute;
+width: 435px;
+height: 435px;
+left: -100px;
+top:-75px;
+background: #FFFFFF;
+
+border-radius:50%;
+
+
+}
+
+.bootcamp_heading{
+    position: absolute;
+width: 187px;
+height: 33px;
+left:156px;
+top: 66px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 110%;
+/* identical to box height, or 33px */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+.bootcamp_list{
+position: absolute;
+width: 200px;
+height: 20px;
+left: 120px;
+top: 130px;
+}
+.bootcamp_text_pro{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+    /* identical to box height, or 20px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #0065FF;
+    list-style-type:square;
+}
+
+.explore_circle{
+position: absolute;
+width: 80px;
+height: 80px;
+left: 290px;
+top: 360px;
+
+background: #FB3640;
+border: 6px solid #FFFFFF;
+border-radius: 50%;
+z-index: 10;
+}
+.explore_text1{
+    position: absolute;
+    width: 64px;
+    height: 18px;
+    left: 8px;
+    top: 15px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 110%;
+    /* identical to box height, or 18px */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    
+}
+/* !!!!!!!!!!!!makers spave box!!!!!!!!*/
+/*we have used boot camp box css for makerspace box*/
+.internship_box{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 550px;
+    top: 230px;
+    
+    background: linear-gradient(180deg, #0065FF 0%, #061A40 100%);
+    border-radius: 30px;
+
+}
+
+/* !!!!!!!!!!!!internship box!!!!!!!!*/
+/*we have used boot camp box css for internship box*/
+.makerspace_box{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 350px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, #0065FF 0%, #061A40 100%);
+    border-radius: 30px;
+
+}
+/* !!!!!!!!!!!!section3 css ends here!!!!!!!!*/
+
+/* !!!!!!!!!!!!section4 start here!!!!!!!!*/
+.section4{
+    position: absolute;
+    width: 1180px;
+    height: 680px;
+    left: 100px;
+    top:700px;
+    background: #ffffff;
+}
+
+.inspire_image{
+position: absolute;
+width: 647px;
+height: 114px;
+left: 90px;
+top: 40px;
+
+filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
+}
+.section4_paragraph{
+position: absolute;
+width: 810px;
+height: 40px;
+left: 95px;
+top: 160px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 110%;
+/* or 20px */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #061A40;
+}
+
+.palcement_traning_rectangle{
+    position: absolute;
+width: 320px;
+height: 308px;
+left: 95px;
+top: 345px;
+
+background: #BBE5ED;
+box-shadow: 2px 8px 10px rgba(6, 26, 64, 0.5);
+border-radius: 30px;
+
+}
+.placement_traning_text{
+    position: absolute;
+width: 302px;
+height: 62px;
+left: 10px;
+top: 120px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 105%;
+/* or 31px */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #FB3640;
+}
+
+.learn_more_box{
+    position: absolute;
+width: 270px;
+height: 60px;
+left: 25px;
+top: 240px;
+
+background: linear-gradient(92.91deg, #0065FF -14.24%, #05286C 100%);
+box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.learn_more_text{
+position: absolute;
+width: 134px;
+height: 26px;
+left:70px;
+top:-8px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.placement_traning_svg{
+    position: absolute;
+    width: 251.55px;
+    height: 249.3px;
+    left: 134px;
+    top: 220px;
+}
+
+
+.section4_rectangle52{
+    position: absolute;
+width: 630px;
+height: 400px;
+left: 460px;
+top: 252px;
+
+background: #BBE5ED;
+box-shadow: 2px 8px 10px rgba(6, 26, 64, 0.5);
+border-radius: 30px;
+}
+.rextangle52_text{
+    position: absolute;
+    width: 379px;
+    height: 20px;
+    left: 233px;
+    top: 10px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    font-variant: small-caps;
+    
+    color: #061A40;
+}
+
+.section4_rectangle53{
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 15px;
+top:20px;
+
+background: #C4C4C4;
+border-radius: 20px;
+}
+
+.section4_rectangle54{
+    position: absolute;
+width: 345px;
+height: 155px;
+left: 15px;
+top:230px;
+
+background: #C4C4C4;
+border-radius: 20px;
+}
+.section4_rectangle55{
+    position: absolute;
+width: 240px;
+height: 315px;
+left: 375px;
+top: 60px;
+
+background: #C4C4C4;
+border-radius: 20px;
+}
+.section4_rectangle56{
+    position: absolute;
+width: 130px;
+height: 155px;
+left:230px;
+top: 62px;
+
+background: #C4C4C4;
+border-radius: 20px;
+}
+
+
+/* !!!!!!!!!!!!section4 end here!!!!!!!!*/
+
+.section5{
+    position: absolute;
+    width: 1180px;
+    height: 438px;
+    left: 84px;
+    top:1400px;
+    background: #ffffff;
+}
+
+.section5_platforuma_background{
+position: absolute;
+width: 1180px;
+height: 438px;
+top: -290px;  
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 288px;
+line-height: 75.9%;
+/* or 219px */
+
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #BBE5ED;
+
+opacity: 0.8;
+}
+
+.stats{
+    position: absolute;
+    width: 660px;
+    height: 345px;
+    left: 226px;
+    top: 68px;
+}
+.text_345{
+    position: absolute;
+width: 179px;
+height: 88px;
+left: 240px;
+top:-68px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 88px;
+/* identical to box height */
+
+text-transform: capitalize;
+font-feature-settings: 'ss04' on;
+
+color: #FB3640;
+
+}
+
+.text_platforumers{
+    position: absolute;
+width: 660px;
+height: 88px;
+left: 0px;
+top: 28px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 88px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #061A40;
+
+
+}
+.text_so_for{
+    position: absolute;
+width: 89px;
+height: 36px;
+left: 285px;
+top:161px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+.text_what_are{
+    position: absolute;
+width: 652px;
+height: 28px;
+left: -4px;
+top: 187px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 77.9%;
+/* identical to box height, or 28px */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+.get_in_touch_box{
+    position: absolute;
+width: 270px;
+height: 60px;
+left: 196px;
+top: 270px;
+
+background: linear-gradient(92.91deg, rgba(0, 101, 255, 0.8) -14.24%, rgba(5, 40, 108, 0.8) 100%);
+box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.get_in_touch_text{
+    position: absolute;
+    width: 152px;
+    height: 26px;
+    left: 59px;
+    top: -7px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+/* !!!!!!!!!!!!section5 end here!!!!!!!!*/
+/* !!!!!!!!!!!!section6 start here!!!!!!!!*/
