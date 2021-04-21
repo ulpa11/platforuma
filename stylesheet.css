@@ -1,20 +1,29 @@
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
+
+
+
+body{
+    width:100%;
+   margin: 0;
+   padding: 0;
+ }
+}
 /* complete page css*/
 .landingpage{
-position: absolute;
-width: 1280px;
-height: 4608px;
+position:absolute;
+width: 100%px;
+
+
+
 
 background: #FFFFFF;
 }
 /* !!!!!!!!!!!!section0 css starts here!!!!!!!!*/
 /* this is css for section0 that consist side bar and right side element*/
 .section0{
-    position:relative;
-    width: 1280px;
-    height: 700px;
+    position:absolute;
+    width: 100%;
+    height: 4608px;
     
 }
 
@@ -22,12 +31,13 @@ background: #FFFFFF;
 .sidebar{
     position:absolute;
     width: 100px;
-    height: 700px;
+    height: 4608px;
+   
     
 }
 /* this is css for colored box in sidebar */
 .rectangle1{
-    position:absolute;
+    position:sticky;
     width: 100px;
     height: 450px;
     left: 0px;
@@ -68,6 +78,16 @@ z-index: 2;
 
 
 /*this css is for right side wlwment contact us and reach us */
+.right_side_element{
+    position: sticky;
+width: 50px;
+height: 643px;
+left: 0px;
+top: 27px;
+z-index: 10;
+
+}
+    
     .reach_us_ellipse1{
     position:absolute;
     width: 50px;
@@ -111,7 +131,7 @@ position:absolute;
 width: 156px;
 height: 21px;
 left: 1165px;
-top: 530px;
+top: 430px;
 
 font-family: Poppins;
 font-style: normal;
@@ -135,7 +155,7 @@ z-index: 3;
 width: 50px;
 height: 50px;
 left: 1205px;
-top: 610px;
+top: 510px;
 
 background:#BBE5ED;
 
@@ -148,8 +168,8 @@ z-index: 3;
 /* !!!!!!!!!!!!section1 css starts here!!!!!!!!*/
 /* section1 */
 .section1{
-    position: absolute;
-    width: 1280px;
+    position: relative;
+    width: 100%px;
     height: 700px;
     left: 0px;
     top: 0px;
@@ -338,7 +358,7 @@ color: #061A40;
 width: 1180px;
 height: 250px;
 left:0px;
-top: 420px;
+top: 428px;
 
 background: #BBE5ED;
 z-index: 2;
@@ -370,8 +390,8 @@ color: #061A40;
 
 /*css of learn image*/
 .section2_rectangle{
-    position: absolute;
-    width: 1180px;
+    position:absolute;
+    width:100%;
     height: 670px;
     left: 100px;
     top: 30px;
@@ -491,6 +511,7 @@ top:335px;
 background: linear-gradient(92.91deg, rgba(0, 101, 255, 0.8) -14.24%, rgba(5, 40, 108, 0.8) 100%);
 box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
+border: none;/* remove in for button fincationality*/
 z-index:1;
 }
 
@@ -548,10 +569,10 @@ i have used same css that of school of prog and same will be used in school or a
 
 /* !!!!!!!!!!!!section3 css start here!!!!!!!!*/
 .section3_rectangle{
-position: absolute;
-width:100%;
+position:absolute;
+width:1180px;
 height: 700px;
-left: 0px;
+left: 100px;
 top: 1400px;
 
 background: #BBE5ED;
@@ -562,7 +583,7 @@ background: #BBE5ED;
     position:relative;
     width: 723px;
     height: 114px;
-    left: 182px;
+    left: 100px;
     top: 25px;
     
     filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
@@ -571,7 +592,7 @@ background: #BBE5ED;
     position: absolute;
 width: 810px;
 height: 40px;
-left: 190px;
+left: 105px;
 top: 150px;
 
 font-family: Poppins;
@@ -591,7 +612,7 @@ color: #061A40;
     position: absolute;
     width: 300px;
     height: 400px;
-    left: 200px;
+    left: 100px;
     top: 230px;
     
     background: linear-gradient(180deg, #0065FF 0%, #061A40 100%);
@@ -707,7 +728,7 @@ z-index: 10;
     position: absolute;
     width: 300px;
     height: 400px;
-    left: 550px;
+    left: 450px;
     top: 230px;
     
     background: linear-gradient(180deg, #0065FF 0%, #061A40 100%);
@@ -721,8 +742,8 @@ z-index: 10;
     position: absolute;
     width: 300px;
     height: 400px;
-    left: 350px;
-    top: 0px;
+    left: 800px;
+    top: 230px;
     
     background: linear-gradient(180deg, #0065FF 0%, #061A40 100%);
     border-radius: 30px;
@@ -732,11 +753,11 @@ z-index: 10;
 
 /* !!!!!!!!!!!!section4 start here!!!!!!!!*/
 .section4{
-    position: absolute;
-    width: 1180px;
+    position:absolute;
+    width: 100%;
     height: 680px;
     left: 100px;
-    top:700px;
+    top:2080px;
     background: #ffffff;
 }
 
@@ -842,7 +863,7 @@ color: #FFFFFF;
 
 
 .section4_rectangle52{
-    position: absolute;
+position: absolute;
 width: 630px;
 height: 400px;
 left: 460px;
@@ -917,11 +938,11 @@ border-radius: 20px;
 /* !!!!!!!!!!!!section4 end here!!!!!!!!*/
 
 .section5{
-    position: absolute;
-    width: 1180px;
+    position:absolute;
+    width:100%;
     height: 438px;
-    left: 84px;
-    top:1400px;
+    left: 100px;
+    top:2800px;
     background: #ffffff;
 }
 
@@ -1067,3 +1088,539 @@ color: #FFFFFF;
 }
 /* !!!!!!!!!!!!section5 end here!!!!!!!!*/
 /* !!!!!!!!!!!!section6 start here!!!!!!!!*/
+.section6{
+position: absolute;
+width:1180px;
+height: 630px;
+left:100px;
+top: 3285px;
+
+background: #BBE5ED;
+}
+
+.testimonial_box{
+    position: absolute;
+width: 989px;
+height: 577px;
+left: 90px;
+top: 0px;
+background-color:#BBE5ED;
+}
+
+.what_our_text{
+    position: absolute;
+width: 816px;
+height: 59px;
+left:90px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #061A40;
+
+}
+
+.testimonial_image{
+position: absolute;
+width: 338.6px;
+height: 400px;
+left: 66px;
+top: 95px;
+}
+.testiomonial_paragraph{
+    position: absolute;
+    width: 388px;
+    height: 198px;
+    left:451px;
+    top:144px;
+}
+
+.testimonial_name{
+position: absolute;
+width: 392px;
+height: 44px;
+left: 447px;
+top: 357px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FB3640;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.testimonial_field_name{
+    position: absolute;
+    width: 300px;
+    height: 22px;
+    left: 430px;
+    top: 420px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    
+    color: #061A40;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*dev in this section add arrow and dots belows*/
+
+/* !!!!!!!!!!!!section6 end  here!!!!!!!!*/
+
+/* !!!!!!!!!!!!section7 start here!!!!!!!!*/
+/* !!!!!!!!!!!!FOOTER!!!!!!!!*/
+.section7{
+position: absolute;
+width: 100%;
+height: 700px;
+left: 100px;
+top:3908px;
+}
+
+
+
+
+.rectangle25{
+position: absolute;
+width: 720px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+}
+.platforuma_logo2{
+    position: absolute;
+left: 13px;
+right: 76.27%;
+top:17px;
+bottom: 12.95%;
+
+filter: drop-shadow(1px 2px 0px rgba(194, 16, 228, 0.1));
+
+}
+
+.social_media_icons{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 197.54px;
+height: 20px;
+left: 450px;
+top:30px;
+}
+
+.facebook_logo{
+    margin: 0px 20px;
+}
+.insta_logo{
+    margin: 0px 20px;
+}
+.youtube_logo{
+    margin: 0px 20px;
+}
+.linkedin_logo{
+    margin: 0px 20px;
+}
+
+.rectangle26{
+position: absolute;
+width: 460px;
+height: 80px;
+left: 720px;
+top:0px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+
+.rectangle27{
+position: absolute;
+width: 720px;
+height: 200px;
+left: 0px;
+top: 80px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+
+.footer_learn{
+position: absolute;
+width: 56px;
+height: 30px;
+left: 30px;
+top: 4px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FB3640;
+}
+
+.footer_learn_school_of_links{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 250px;
+height: 68px;
+left: 45px;
+top: 43px;
+
+color: white;
+}
+.python_ard_iot{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 87px;
+height: 68px;
+left: 450px;
+top:43px;
+color: white;
+}
+
+.rectangle59{
+    position: absolute;
+width: 460px;
+height: 340px;
+left: 720px;
+top: 80px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+.platforuma_map{
+    position: absolute;
+    width: 440px;
+    height: 320px;
+    left: 10px;
+    top: 10px;
+}
+.rectangle31{
+position: absolute;
+width: 460px;
+height: 110px;
+left: 720px;
+top:420px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.rectangle31_text{
+position: absolute;
+width: 116px;
+height: 29px;
+left: 172px;
+top: 15px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.rectangle58{
+position: absolute;
+width: 460px;
+height: 90px;
+left: 720px;
+top: 528px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+.rectangle58_text{
+    position: absolute;
+width: 184px;
+height: 27px;
+left:120px;
+top:14px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+.rectangle58_ellipse19{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 287px;
+top: 20px;
+
+background: #061A40;
+}
+
+.rectangle28{
+position: absolute;
+width: 412px;
+height: 250px;
+left: 0px;
+top: 280px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+}
+/*  have used footer learn css for the content of inovate or rectangle  28 */
+.rectangle29{
+    position: absolute;
+width: 308px;
+height: 250px;
+left: 412px;
+top: 280px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+/* i have used footer learn css for the content of inovate or rectangle  28 */
+
+.rectangle32{
+    position: absolute;
+width: 720px;
+height: 90px;
+left: 0px;
+top: 528px;
+
+background: #061A40;
+border: 0.5px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+.rectangle32_callus{
+position: absolute;
+width: 35px;
+height: 15px;
+left: 90px;
+top: 22px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 7px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.rectangle32_number{
+    position: absolute;
+width: 103px;
+height: 24px;
+left: 90px;
+top: 24px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.rectangle32_emailus{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 450px;
+    top: 22px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+.rectangle32_email{
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 450px;
+    top: 24px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+.rectangle33{
+    position: absolute;
+    width: 1180px;
+    height: 80px;
+    left: 0px;
+    top: 618px;
+    
+    background: #061A40;
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.copyright{
+position: absolute;
+width: 184px;
+height: 21px;
+left: 34px;
+top: 15px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+.privacy_policy{
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 360px;
+    top: 15px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF; 
+}
+
+.legal_notice{
+    position: absolute;
+width: 86px;
+height: 21px;
+left: 540px;
+top: 15px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.powered_by{
+    position: absolute;
+width: 212px;
+height: 21px;
+left: 868px;
+top: 15px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+
+/* !!!!!!!!!!!!section7 end here!!!!!!!!*/
