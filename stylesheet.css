@@ -4,6 +4,7 @@
 
 body{
     width:100%;
+    
    margin: 0;
    padding: 0;
  }
@@ -32,9 +33,10 @@ background: #FFFFFF;
     position:absolute;
     width: 100px;
     height: 4608px;
-   
-    
 }
+
+
+
 /* this is css for colored box in sidebar */
 .rectangle1{
     position:sticky;
@@ -95,9 +97,8 @@ z-index: 10;
     left: 1205px;
     top: 30px;
 
-    background: #ffffff;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
+    
+    
     z-index: 3;
 
 }
@@ -157,9 +158,10 @@ height: 50px;
 left: 1205px;
 top: 510px;
 
-background:#BBE5ED;
+
 
 z-index: 3;
+
 }
 /* !!!!!!!!!!!!section0 css ends here!!!!!!!!*/
 /* section 0 css end here it has side bar and right side element */
@@ -175,7 +177,7 @@ z-index: 3;
     top: 0px;
 }
 .hero{
-    position: absolute;
+position:absolute;
 width: 1180px;
 height: 670px;
 left: 100px;
@@ -1201,6 +1203,10 @@ height: 700px;
 left: 100px;
 top:3908px;
 }
+
+
+
+
 
 
 
