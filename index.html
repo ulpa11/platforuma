@@ -7,7 +7,6 @@
     <title>Learn,Innovate&Inspire</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet"  ype="text/css" href="stylesheet.css">
 
 </head>
@@ -19,8 +18,10 @@
    <div class="section0">
         <div class="sidebar">
             <div class="rectangle1">
-                <div class="logo">
-                    <img src="logo.svg" alt="this is a logo">
+                <div>
+                    <img src="logo.svg" alt="this is a logo" class="logo">
+                    <!--this logo is for mobile version-->
+                    <img src="mobile_platforuma_logo.svg" alt="this is a mobile_platforuma_logo" class="mobile_version_logo">
                 </div>
     
                 <div class="hamburger">
@@ -74,8 +75,9 @@
 
                 
                 <!--img and ligh blue box of section 1-->
-            <div class="section1_img">
-                    <img src="img.svg" alt="this is a image">
+            <div>
+                    <img src="img.svg" alt="this is a image" class="section1_img">
+                    <img src="section1_mobile_logo.svg" alt="this is a logo" class="section1_img_mobile">
             </div>
             
             <div class="section1_we_have">
@@ -108,7 +110,10 @@
         <!--all the elements of section will come under this-->
         <div class="section2_rectangle">
             <div class="section2_img">
-                <img src="section2_learn_logo.svg" alt="this is a logo">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="moblie_learn_img.svg">
+                    <img src="section2_learn_logo.svg" alt="this is a logo">
+                </picture>
             </div>
             <div class="section2_paragraph">
                 <p>Grown ideas and know the way to take those ideas out to real  world <br> by learning with us.</p>
@@ -196,7 +201,11 @@
     <!--section 3 start   here-->
     <div class="section3_rectangle">
         <div class="section3_inovate_image">
+            <picture>
+            <source media="(max-width: 600px)" srcset="innovate_mobile_img.svg">
             <img src="section3_inovate_image.svg" alt="this is a image">
+            </picture>
+            
         </div>
         <div class="section3_paragraph">
             <p>
@@ -285,7 +294,10 @@
     <!--section 4 start   here-->
     <div class="section4">
         <div class="inspire_image">
+            <picture>
+            <source media="(max-width: 600px)" srcset="inspire_mobile_img.svg">
             <img src="section4_inspire_image.svg" alt="this is a image">
+            </picture>
         </div>
         <div class="section4_paragraph">
             <p>Be more than you were yesterday & create more than before. With us spread <br> your learning.</p>

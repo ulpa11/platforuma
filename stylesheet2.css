@@ -1,57 +1,264 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    letter-spacing: 0.05em;
+}
+
+.sidebar{
+    position:sticky;
+    width: 100px;
+    height:450px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #061A40;
+
+}
+.logo{
+    margin-top: 24px;
+}
+.hamburger{
+    position: relative;
+    margin-top: -80px;
+}
+.platforuma_logo{
+    margin-bottom: 12px;
+}
+
+/* side bar ends here */
+.right-side-element{
+    position:absolute;
+    width: 50px;
+    height: 543px;
+    left:95%;
+    top:36px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.right-side-element p{
+    color: #061A40;
+    margin-top: 24px;
+    transform: rotate(90deg);
+    
+
+}
+/* hero it consist learn inovate insprie */
+
+.nav{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:335px;
+    top:30px;
+    left:200px;
+}
+.nav-style{
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #061A40;
+
+}
+
+/* section1 */
 .section1{
-    
-position: absolute;
-width: 1280px;
-height: 700px;
-left: 0px;
-top: 0px;
-}
-.hero{
-    position: absolute;
-width: 1180px;
-height: 670px;
-left: 100px;
-top: 30px;
-
-}
-
- .hero::.img{
-    position: absolute;
-    width: 400px;
-    height: 500px;
-    left: 189px;
-    top: 139px;
-   
-}
-
-.rectangle3{
-    position: absolute;
-    width: 1180px;
-    height: 250px;
+    position:absolute;
     left: 100px;
-    top: 450px;
+    top:100px;
+    position: absolute;
+    height:80vh;
+    width: 100%;
+    z-index:50;
     
-    background: #BBE5ED; 
-
 }
 
-.rectangle3::.join_us_and{
-    position: absolute;
-    width: 361px;
-    height: 60px;
-    left: 640px;
-    top: 479px;
+.container{
     
+}
+
+.we-have-heading{
+    position:absolute;
+    width: 514px;
+    left: 560px;
+    top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    letter-spacing: 0.05em;
+    color: #061A40;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.we-belive-para{
+    position:absolute;
+    width: 540px;
+    left: 560px;
+    top:180px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 125%;
-    /* or 30px */
-    
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    
+    font-size: 18px;
     color: #061A40;
- 
 }
+.rectangle3{
+    position: relative;
+    left: 100px;
+    background-color: #BBE5ED;
+    height:220px;
+
+}
+
+.img{
+    position: absolute;
+    left:100px;
+    top:-340px;
+}
+
+.join-us-para{
+    position: relative;
+    width:361px;
+    left:560px;
+    top: 20px;
+    font-family: Poppins;
+    font-size: 24px;
+    color: #061A40;
+}
+/* section 2 */
+.section2{
+    position:relative;
+    height:100vh;
+    left: 100px;
+    width: 100%;
+}
+
+.learn-img{
+    position: relative;
+    filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
+    top:24px;
+    left: 90px;
+}
+
+.section2_paragraph{
+    position:relative; 
+    top:24px;
+    left: 94px;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #061A40;
+}
+
+.container-section2{
+    width:80%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.rectangle41{
+position:relative;
+width: 300px;
+height: 400px;
+left: 70px;
+top:36px;
+background: #BBE5ED;
+box-shadow: 2px 8px 10px rgba(6, 26, 64, 0.5);
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+
+}
+
+.section2_school_of{
+   
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 18px;
+color: #061A40;
+margin-top:-36px;
+}
+.section2_prog{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 90%; 
+    color: #FB3640;
+    margin-top:-12px;
+}
+
+.section2_para{
+width: 250px;
+font-family: Poppins;
+font-size: 14px;
+color: #061A40;
+text-align: center;
+margin-top:12px;
+
+}
+.school_of_prog_explore_button{
+width: 270px;
+height: 50px;
+background: linear-gradient(92.91deg, rgba(0, 101, 255, 0.8) -14.24%, rgba(5, 40, 108, 0.8) 100%);
+box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+text-decoration: none;
+color: #FFFFFF;
+margin-bottom: 12px;
+
+}
+
+.school_of_prog_explore_button p{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top:6px;
+}
+
+/* section3 */
+.section3{
+    position:relative;
+    height: 100vh;
+    left:100px;
+    width:100%;
+    top:36px;
+    background: #BBE5ED;
+}
+
+.section3_boxes{
+    position:relative;
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rectangle48{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background: #BBE5ED;
+    border: 1px solid #0065FF;
+    border-radius: 30px;
+    left:70px;
+    top:36px;
+   
+    
+}
+
